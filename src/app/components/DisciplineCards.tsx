@@ -46,7 +46,7 @@ const cardHover = {
   scale: 1.005,
   borderColor: "rgba(197, 160, 89, 0.4)", // Muted gold border
   boxShadow: "0 0 15px rgba(99, 18, 39, 0.6)", // Burgundy glow
-  transition: { duration: 0.3, ease: "easeOut" },
+  transition: { duration: 0.3, ease: "easeOut" as const },
 };
 
 export default function DisciplineCards() {
